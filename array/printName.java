@@ -11,7 +11,6 @@ public class printName{
         for(int i = 0; i < size; i++){
             name[i] = sc.next();  
         }
-
         // here is the output
 
         for(int i = 0; i < name.length; i++){
