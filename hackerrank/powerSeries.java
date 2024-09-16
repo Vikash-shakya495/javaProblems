@@ -18,6 +18,9 @@ public class powerSeries{
             System.out.println();
         }
         sc.close();
+
+        // 
+        // 2
     }
 }
 
