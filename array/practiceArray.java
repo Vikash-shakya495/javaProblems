@@ -12,8 +12,13 @@ public class practiceArray {
         // to the first element of the array in the heap.
         for(int i = 0; i < ros.length; i++){
             ros[i] = i*2;
-            System.out.println(ros[i]);
+            System.out.print(ros[i] + " ");
         }
         // System.out.println(ros);
+
+
+        // for(int num : arr){
+        //     System.out.println(num + " ");
+        // }
     }
 }
