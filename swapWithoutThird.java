@@ -10,8 +10,8 @@ public class swapWithoutThird {
 		b = a - b;
 		a = a - b;
 
-		System.out.println("after swapping , a is " + a + " and b is " + b);
-
+		System.out.println("after swapping , a is " + a + " and b is " + b)
+		sc.close();
 	}
 }
 
