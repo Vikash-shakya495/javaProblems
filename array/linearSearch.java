@@ -24,6 +24,17 @@ public class linearSearch {
             }
         }
 
+
+        int[] arr = new int[3];
+        arr[0] = 34;
+        arr[1] = 45;
+        arr[2] = 67;
+
+        // enhanced for loop
+        for(int num : arr ){
+            System.out.println(num + " " );
+        }
+
         sc.close();
     }
 }

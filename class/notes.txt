@@ -1,1 +1,90 @@
+Date: 18-09-2024
+
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects," which can contain data (fields or attributes) and code (methods or functions). OOP allows for better organization of code by grouping related data and functionality together, making it easier to design, maintain, and reuse.
+
+
+class : 
+    it is blue print  for objects.
+    it defines properties and functions for objects.
+
+objects :       
+    An object is an instance of a class.
+    with the help of object, we access properties and functions
+
+
+    Class Toy{
+
+        -color
+        -price
+        -type
+
+        fly()
+        charge_it()
+        start()
+        stop()
+
+    }
+
+Toy toy1 = new Toy();
+
+        class Human{
+            private String name;
+            private int age;
+        }
+
+
+Date : 19-09-2024
+
+oops simplifies software development and maintenance by providing oop concepts like
+1. Object
+2. Class
+3. Inheritance
+4. polymorphism
+5. Encapsulation
+6. Abstraction
+
+Advanced concept of oop
+
+object --
+an entity that has state and behavior is knowon as an object.
+for example, a chair , pen , table, keyboard, bike, etc .
+it can be physical or logical.
+an object can be defined as an instance of a class.
+an object contains an address and takes up some place in memory.
+example: a dog is an object because it has various state and functionality
+
+
+Class -- > 
+    Collection of objects is called a class
+    it is a logical entity
+    A class can also be defined as a blueprint from which you can create an individual object.
+    A class is a template for creating objects.
+    example: a car is a class because it has various state and functionality
+
+
+Inheritance -- >
+    when one object acquires all the operatojns and behaviors of a parent object,it is known as Inheritance.
+    it provides code reuseability.
+    it is a mechanism in which one class can inherit the properties of another class.
+    example: a car is a child of a vehicle because it has all the properties of a vehicle
+
+polymorphism -- >
+    if one task is performed in different ways, it is known as polymorphism.
+    for example: to convince the customer differently.
+    to draw something, for example , shape, triangle, rectange, etc.
+    another exmaple can be to speak something;
+    for example, a cat speaks meow, dog barks 
+
+Abstraction -- >
+    it is process of hiding the detials of objects, which is having common feature apply ot all other new objects.
+    it is a mechanism of showing only necessary information to the outside world.
+    for example phone call, we don't know the intenal processing.
+
+Encapsulation -- >
+    It is the bundling of data (attributes) and methods (functions) into a single unit (class).
+    It restricts direct access to an object's data using access modifiers (private, protected, public).
+    Encapsulation hides the internal state of an object, exposing only necessary parts.
+    It promotes data security and code maintainability.
+    
+
+
