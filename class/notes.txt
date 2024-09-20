@@ -1,4 +1,4 @@
-Date: 18-09-2024
+Date: 18-09-2024s
 
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects," which can contain data (fields or attributes) and code (methods or functions). OOP allows for better organization of code by grouping related data and functionality together, making it easier to design, maintain, and reuse.
 

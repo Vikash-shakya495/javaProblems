@@ -32,7 +32,7 @@ public class introToArray {
 
 
         // array of objects
-System.out.println("array of objects");
+        System.out.println("array of objects");
         Scanner sc = new Scanner(System.in);
         String[] str = new String[4];
         for(int i = 0; i < str.length; i++){

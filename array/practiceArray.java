@@ -1,5 +1,3 @@
-package array;
-
 public class practiceArray {
     public static void main(String[] args){
         // int[] rollno1 = new int[5];
