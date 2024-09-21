@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class minAndMax {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the numbers in array : ");
+        System.out.println("Enter total the numbers in array : ");
         int total = sc.nextInt();
         int[] numbers = new int[total];
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumAvgUtility {
+public class arrayUtility {
     public static int[] inputArray(){
         Scanner input = new Scanner(System.in);
         System.out.println("please enter the number of elements: ");

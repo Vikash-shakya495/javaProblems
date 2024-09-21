@@ -1,6 +1,6 @@
 public class sumAndAvg {
     public static void main(String[] args) {
-        int[] numArray = sumAvgUtility.inputArray();
+        int[] numArray = arrayUtility.inputArray();
         long sum = sum(numArray);
         double avg = average(numArray);
         System.out.println("sum of the numbers " + sum);
