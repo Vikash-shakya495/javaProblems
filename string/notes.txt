@@ -1,0 +1,54 @@
+What is String in Java?
+
+Ans : Generally, String is a sequence of characters. But in Java, string is an object that represents a sequence of characters. The java.lang.String class is used to create a string object.
+
+How to create a string object?
+Ans : There are two ways to create String object:
+
+1. By string literal
+2. By new keyword
+
+1 > String Literal
+    Java String literal is created by using double quotes. For Example:
+
+    String s="welcome";  
+
+Each time you create a string literal, the JVM checks the "string constant pool" first. If the string already exists in the pool, a reference to the pooled instance is returned. If the string doesn't exist in the pool, a new string instance is created and placed in the pool. For example:
+
+
+        String s1="Welcome";  
+        String s2="Welcome";//It doesn't create a new instance  
+
+
+In the above example, only one object will be created. Firstly, JVM will not find any string object with the value "Welcome" in string constant pool that is why it will create a new object. After that it will find the string with the value "Welcome" in the pool, it will not create a new object but will return the reference to the same instance.
+
+
+        Note: String objects are stored in a special memory area known as the "string constant pool".
+
+    Why Java uses the concept of String literal?
+    Ans : To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).    
+
+
+2 > By new keyword    
+    String s=new String("Welcome");//creates two objects and one reference variable  
+
+     In such case, JVM will create a new string object in normal (non-pool) heap memory, and the literal "Welcome" will be placed in the string constant pool. The variable s will refer to the object in a heap (non-pool).
+
+
+Why String objects are immutable in Java?
+Ans : As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Sachin". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why String objects are immutable in Java.    
+
+
+Why String class is Final in Java?
+Ans : The reason behind the String class being final is because no one can override the methods of the String class. So that it can provide the same features to the new String objects as well as to the old ones.
+
+
+java string comaparsion
+ans: It is used in authentication (by equals() method), sorting (by compareTo() method), reference matching (by == operator) etc.
+
+1) By Using equals() Method
+    The String class equals() method compares the original content of the string. It compares values of string for equality. String class provides the following two methods:
+
+        public boolean equals(Object another) compares this string to the specified object.
+        
+        public boolean equalsIgnoreCase(String another) compares this string to another string, ignoring case.
