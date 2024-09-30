@@ -4,6 +4,7 @@ import java.util.regex.PatternSyntaxException;
 
 public class RegexValidator {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         
         // Read the number of test cases
