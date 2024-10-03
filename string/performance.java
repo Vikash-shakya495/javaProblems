@@ -4,7 +4,7 @@ public class performance {
         for(int i = 0; i < 26; i++){
             char ch= (char) ('a' + i);
             series +=  ch;
-            System.out.println(series);
         }
+        System.out.println(series);
     }
 }
