@@ -56,6 +56,8 @@ public class stringExample {
         String s10 = "javascript";
         System.out.println(s7.equals(s8)); // true
         System.out.println(s7.equals(s9)); // true
+        System.out.println(s7 == s8); // both variable are pointing the same object
+        System.out.println(s7 == s9); // now s9 is new object with same value of s8
         System.out.println(s7.equals(s10)); // false
 
         String str1 = new String("Hello");
