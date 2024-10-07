@@ -16,6 +16,5 @@ public class GradeOf5stud {
             }
         }
         System.out.println(Arrays.deepToString(marks));
-
     }
 }
