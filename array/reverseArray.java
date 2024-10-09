@@ -2,21 +2,19 @@ import java.util.Arrays;
 
 public class reverseArray {
     public static void main(String[] args) {
+        int[] numArr = arrayUtility.inputArray();
+        reverse(numArr);
+        System.out.println("swap completed");
+        arrayUtility.displayingArray(numArr);
+    }
 
-        // using 2nd array
-        // int[] arr = {1, 2, 3, 4, 5};
-        // int[] temp = new int[arr.length];
-        // for(int i = 0; i < temp.length; i++){
-        //     temp[i] = arr[temp.length -i -1];
-        // }
-        
-        // without 2nd array
-        int[] arr2 = {1, 2, 3, 4, 5};
-        for(int i = 0; i < arr2.length-1; i++){
-            arr2[i] = arr2[arr2.length - 1 -i];
+    public static void reverse(int[] arr) {
+        int i = 0;  // Declare the variable 'i'
+        while (i < arr.length / 2) {
+            int swap = arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = swap;
+            i++;
         }
-        System.out.println(Arrays.toString(arr2));
     }
-
-    // public static void swap(int[] arr ){
-    }
+}
