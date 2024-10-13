@@ -1,26 +1,22 @@
-
 public class MatchTheOccurence {
     public static void main(String[] args) {
         String haystack = "sadbutsad";
         String needle = "sad";
         int result = matchStr(haystack, needle);
-        System.out.println(result);
+        System.out.println(result);  // Expected output: 0
     }
-    public static int matchStr(String hayStack, String needle){
-        int currIndex = 0;
-        String originalHaystack = hayStack;
-        int needleLength = needle.length();
-        for(int i = 0; i < hayStack.length(); i++){
-            for(int j = 0; j < i; j++){
-                if(originalHaystack.substring(j, i).equals(needle)){
-                    return currIndex = i;
-                    // return 0;
-                }
-                else{
-                    originalHaystack[j] += hayStack[j];
-                }
+
+    public static int matchStr(String haystack, String needle) {
+        if (needle.length() == 0) {
+            return 0;
+        }
+
+        for (int i = 0; i <= haystack.length() - needle.length(); i++) {
+            if (haystack.substring(i, i + needle.length()).equals(needle)) {
+                return i;
             }
         }
+
         return -1;
-    } 
+    }
 }
