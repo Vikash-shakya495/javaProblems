@@ -1,3 +1,4 @@
+// single inheritance
 class Animal {  // Superclass
     void eat() {
       System.out.println("Eating...");
@@ -17,4 +18,10 @@ class Animal {  // Superclass
       d.bark(); // Dog class method
     }
   }
+
+/** 
+    1. Single Inheritance
+A subclass inherits from a single superclass. It’s the simplest form of inheritance.
+    2. Multilevel Inheritance
+A class inherits from a superclass, and another class inherits from that subclass, forming a chain.
   
