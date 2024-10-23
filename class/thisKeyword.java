@@ -2,6 +2,10 @@ class Student {
     String name ="vikash";
     int age = 19;
 
+    Student(){
+        this.name = "raj"
+        this.age = 23;
+    }
     // Constructor with parameters having the same name as instance variables
     Student(String name, int age) {
         this.name = name;  // 'this.name' refers to the instance variable
@@ -9,7 +13,7 @@ class Student {
     }
 
     void display() {
-        System.out.println("Name: " + this.name + ", Age: " + this.age);
+        System.out.println("Name: " + name + ", Age: " + age);
     }
 }
 
