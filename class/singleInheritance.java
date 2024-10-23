@@ -19,6 +19,7 @@ class Animal {  // Superclass
     }
   }
 
+  
 /** 
     1. Single Inheritance
 A subclass inherits from a single superclass. It’s the simplest form of inheritance.
