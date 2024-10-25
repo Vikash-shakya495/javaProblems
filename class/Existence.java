@@ -13,7 +13,7 @@ class species{
 	class human extends species {
 		String gender = "male";
 		void humDis(){
-			System.out.println("my catrgory is " + category + " coming from " + gender);
+			System.out.println("my category is " + category + " coming from " + gender);
 			}
 	}
 public class Existence {
