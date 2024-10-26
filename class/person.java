@@ -2,6 +2,7 @@ public class person {
     String name;
     int age;
     String address;
+    person();
     person(String n){
         name = n;
         age = 19;
