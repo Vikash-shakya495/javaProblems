@@ -21,7 +21,7 @@ public class overloading {
 
 
 // there basically two types of polymorphism
-// 1. compile time polymorphism (method overloading)
+// 1. compile time polymorphism (method overloading)  - same name, but different parameters, different return type
 // 2. runtime polymorphism (method overriding)
 // complie time polymorphism further divided into two parts 
 //      Function Overloading

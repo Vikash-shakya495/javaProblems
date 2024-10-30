@@ -88,3 +88,13 @@ Encapsulation -- >
     
 
 
+difference between encapsulation and abstraction
+// encapsulation --> wrapping up the implementation of the data member and methods in a class, 
+// hiding the properties from external classes
+// abstraction --> hiding unnecessary details and shining valuable information
+
+// abstraction is providing external stuff , 
+// encapsulation is internal stuff or is actual implementation of external stuff 
+
+// abstraction is process of gaining the things from source
+// encapsulation is process of containing the information gained by abstraction...
