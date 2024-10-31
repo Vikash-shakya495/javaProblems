@@ -1,18 +1,18 @@
 public class Bank {
-    String acc_num = "0000";   // Default account number
-    String name = "cname";     // Default customer name
-    String mob = "9999999990"; // Default mobile number
-    Double cur_bal = 0.0;      // Current balance
+    String acc_num = "0000";   
+    String name = "cname";     
+    String mob = "9999999990";
+    Double cur_bal = 0.0;    
 
-    // Constructor (optional, if you want to create an account at initialization)
+   
     public Bank() {}
 
     // Create account method with correct syntax
     public void createAccount(String n, String m) {
         name = n;
         mob = m;
-        // Optionally set account number, here for example as a static default
-        acc_num = "1234567890";  // Set to a default or random account number
+       
+        acc_num = "1234567890"; 
     }
 
     // Deposit method
