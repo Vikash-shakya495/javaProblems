@@ -15,7 +15,7 @@ class child extends parent implements wife {
         System.out.println("My wife name is " + this.mywife);
     }
 }
-public class Parent {
+public class thisSuperStaticInterface {
     public static void main(String[] args){
         parent c = new child();
         c.show();
