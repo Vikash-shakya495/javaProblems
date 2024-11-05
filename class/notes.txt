@@ -98,3 +98,46 @@ difference between encapsulation and abstraction
 
 // abstraction is process of gaining the things from source
 // encapsulation is process of containing the information gained by abstraction...
+
+
+
+final
+// final keyword is used to prevent the class from being inherited.
+// final keyword is used to prevent the method from being overridden.
+// final keyword is used to prevent the variable from being changed.
+
+abstraction
+// abstraction is a process of exposing the essential features of an object while hiding the non-essential details
+// abstraction is a process of showing only necessary information to the outside world
+
+
+// package
+steps to create user defined package
+--> open my computer 
+--> go to jdk bin folder , create a subfolder in bin with the name pkg1
+-->  create a java class in notepad as follows:
+package pkg1;
+class SMS{
+    public void display_hello() {
+        System.out.println("Hello world");
+        }
+    public void display_bye() {
+        System.out.println("bye world");
+        }
+}
+
+
+--> compile the SMS.java file, create SMS.class Bytecode
+--> Copy SMS.class file into Bin\pkg1\folder
+--> create pkgdemo.java
+-->  compie and run pkgdemo.java
+
+// create another class pkgdemo
+import pkg1.SMS*;
+class pkgdemo{
+    public static void main(String[] args) {
+
+        }
+}
+
+
