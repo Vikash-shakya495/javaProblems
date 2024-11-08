@@ -11,7 +11,6 @@ public class Bank {
     public void createAccount(String n, String m) {
         name = n;
         mob = m;
-       
         acc_num = "1234567890"; 
     }
 
