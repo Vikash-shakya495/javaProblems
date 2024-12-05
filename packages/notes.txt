@@ -1,9 +1,0 @@
-Access modifiers 
-public --> 
-    [] it can be access anywhere, from class ,package, subclass(same package) , subclass(different package), world ( diff package, and not subclass)
-protected -->
-    [] it is also access, from class, package, subclass(same package) , subclass( different package)
-no modifiers or default --> 
-    [] it is only access through out class, package , subclass (same package)
-private -->
-    [] it more senstive hence, only access within class
